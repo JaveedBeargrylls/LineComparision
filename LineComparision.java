@@ -19,9 +19,14 @@ double length_1 = Math.sqrt(a+b);
 double length_2 = Math.sqrt(c+d);
 System.out.println("length of a first line is : "+length_1);
 System.out.println("length of a second line is : "+length_2);
+
+// Line Comparision of two lines 
+
 if ( length_1 == length_2 )
-System.out.println("the lengths are equal");
+System.out.println(" the lengths are equal");
+else if ( length_1 > length_2 )
+System.out.println(" the length_1 "+length_1+" is greater than "+length_2);
 else
-System.out.println("the lengths are not equal");
+System.out.println(" the length_1 "+length_1+" is smaller than "+length_2);
 }
 }
